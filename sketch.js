@@ -43,7 +43,7 @@ dustbin3.display();
 function keyPressed(){
 
 	if(keyCode===UP_ARROW){
-      Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:100,y:-100});
+      Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:130,y:-130});
 	}
 }
 
